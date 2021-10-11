@@ -1,0 +1,12 @@
+.background{
+    /* z-index: -1; */
+}
+
+.picker {
+    position: fixed !important;
+    bottom: 2px;
+    left: 50%;
+    transform: translateX(-50%) ;
+    width: 97vw !important;
+    height: 100px !important;
+  }

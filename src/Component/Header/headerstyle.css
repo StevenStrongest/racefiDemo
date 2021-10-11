@@ -1,0 +1,86 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 60px;
+    z-index: 2;
+    display: flex;
+    background: #ffffff;
+}
+
+.header a{
+    display: block;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    cursor: pointer;
+    height: 100%;
+}
+
+.nav-item img{
+    width: 50px;
+}
+
+.nav-item p{
+    color:	#0066CC;
+}
+
+.coin-point{
+    flex: 1;
+}
+
+.coin-point img{
+    width: 40px;
+}
+
+.diamond-point{
+    flex: 1;
+}
+
+.activity-point{
+    flex: 1;
+}
+
+.shop{
+    flex: 0.5;
+    background: #0099FF;
+    justify-content: center;
+}
+
+.shop svg{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.garage{
+    flex: 0.5;
+    justify-content: center;
+    background:	#00FF33;
+}
+
+.garage svg{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.tournament{
+    flex: 0.6;
+    justify-content: center;
+}
+
+
+.setting{
+    flex: 0.4;
+    justify-content: center;
+}
+
+.setting svg{
+    font-size: 40px;
+}
