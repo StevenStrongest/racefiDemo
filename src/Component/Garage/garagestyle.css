@@ -1,0 +1,88 @@
+.garage-car{
+    width: 100wv;
+    height: 100vh;
+}
+
+.parameter{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    color: #ffffff;
+}
+
+.parameter .para{
+
+}
+
+.parameter .para .stickText{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parameter .para .measuringStick{
+    width: 300px;
+    background: #23376C;
+    height: 10px;
+    position: relative;
+}
+
+.parameter .para .measuringStick:before{
+    content: "";
+    position: absolute;
+    display: "block";
+    width: 80%;
+    height: 100%;
+    background: red;
+    top: 0;
+    left: 0;
+}
+
+.updateCar{
+    position: absolute;
+    bottom: 20px;
+    left: 30%;
+    transform: translateX(-30%);
+    display: flex;
+    align-items: center;
+}
+
+.updateCar .updateItem{
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 0px 0px 2px, rgba(255, 255, 255, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    cursor: pointer;
+}
+
+.updateCar .updateItem svg{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.updateCar .updateItem.fillColor{
+    position: relative;
+}
+
+.updateCar .updateBtn button{
+    width: 400px;
+    height: 50px;
+    background: red;
+    border: none;
+    font-size: 30px;
+    margin-left: 40px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.picker {
+    position: fixed !important;
+    top: -120px;
+    left: 10px;
+    width: 100px !important;
+    height: 100px !important;
+}

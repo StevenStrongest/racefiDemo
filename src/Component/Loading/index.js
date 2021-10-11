@@ -24,8 +24,8 @@ const Loading = () => {
         <use xlinkHref="#text"></use>
       </svg>
       <div className="progress">
-        <div class="progressLoading">
-          <div class="progress-value"></div>
+        <div className="progressLoading">
+          <div className="progress-value"></div>
         </div>
         <p>{progress.toFixed(0)} %</p>
       </div>

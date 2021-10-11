@@ -28,26 +28,7 @@ const CameraControls = () => {
   );
 };
 
-const state = proxy({
-  current: null,
-  color: "#ffffff",
-});
-
-function Picker() {
-  const snap = useSnapshot(state);
-  return (
-    <div>
-      <HexColorPicker
-        className="picker"
-        color={snap.color}
-        onChange={(color) => (state.color = color)}
-      />
-    </div>
-  );
-}
-
 const Background = () => {
-  const snap = useSnapshot(state);
   return (
     <>
       <Canvas
@@ -67,14 +48,12 @@ const Background = () => {
           shadow-mapSize-height={2400}
         />
         <Car3
-          color={snap.color}
           rotation-y={-Math.PI / 2}
           position={[1, -3.9, -10]}
           scale={1.6}
         />
         <Scene />
       </Canvas>
-      <Picker />
     </>
   );
 };
