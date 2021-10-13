@@ -178,7 +178,7 @@ export default function Model({ ...props }) {
             <mesh geometry={nodes.Object_110.geometry} material={nodes.Object_110.material} />
           </group>
           <group position={[2.82, 1.13, 7.8]} rotation={[-1.57, 0, Math.PI / 2]} scale={0.03}>
-            <mesh geometry={nodes.Object_112.geometry} material={nodes.Object_112.material} />
+            <mesh material-color={props.color} geometry={nodes.Object_112.geometry} material={nodes.Object_112.material} />
           </group>
           <group position={[2.83, 1.12, 7.8]} rotation={[0, Math.PI / 2, 0]} scale={[-0.77, 0.77, 0.85]}>
             <mesh geometry={nodes.Object_114.geometry} material={nodes.Object_114.material} />

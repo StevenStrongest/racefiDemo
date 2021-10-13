@@ -86,3 +86,26 @@
     width: 100px !important;
     height: 100px !important;
 }
+
+.SwapCar{
+    position: absolute;
+    right: 10%;
+    transform: translateX(-30%) translateY(-50%);
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.SwapCar svg{
+    color: red;
+    font-size: 150px;
+    cursor: pointer;
+}
+
+.SwapCar .btnSwap.up svg{
+    transform: translateX(80%) translateY(-50%) rotate(180deg);
+}
+
+.SwapCar .btnSwap.down svg{
+    transform: translateX(80%) translateY(65%);
+}
